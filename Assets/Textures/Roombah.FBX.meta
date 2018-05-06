@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: de5627211adff4fa5bdafd2327439cc5
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Object
+    100002: //RootNode
+    100004: roombah-bristle-center
+    100006: Roombah-bristle-rod
+    100008: Roombah-Bristles
+    100010: Roombah-Third-Wheel
+    100012: Roombah-Third-Wheel-Pivot
+    100014: Roombah-Top
+    100016: Roombah-Trim-White
+    100018: Roombah-Wheel
+    100020: Roombah-Wheel001
+    400000: Object
+    400002: //RootNode
+    400004: roombah-bristle-center
+    400006: Roombah-bristle-rod
+    400008: Roombah-Bristles
+    400010: Roombah-Third-Wheel
+    400012: Roombah-Third-Wheel-Pivot
+    400014: Roombah-Top
+    400016: Roombah-Trim-White
+    400018: Roombah-Wheel
+    400020: Roombah-Wheel001
+    2100000: 02 - Default
+    2100002: 07 - Default
+    2100004: 03 - Default
+    2100006: 08 - Default
+    2300000: Object
+    2300002: //RootNode
+    2300004: roombah-bristle-center
+    2300006: Roombah-bristle-rod
+    2300008: Roombah-Bristles
+    2300010: Roombah-Third-Wheel
+    2300012: Roombah-Third-Wheel-Pivot
+    2300014: Roombah-Top
+    2300016: Roombah-Trim-White
+    2300018: Roombah-Wheel
+    2300020: Roombah-Wheel001
+    3300000: Object
+    3300002: //RootNode
+    3300004: roombah-bristle-center
+    3300006: Roombah-bristle-rod
+    3300008: Roombah-Bristles
+    3300010: Roombah-Third-Wheel
+    3300012: Roombah-Third-Wheel-Pivot
+    3300014: Roombah-Top
+    3300016: Roombah-Trim-White
+    3300018: Roombah-Wheel
+    3300020: Roombah-Wheel001
+    4300000: Roombah
+    4300002: roombah-bristle-center
+    4300004: Roombah-Bristles
+    4300006: Roombah-bristle-rod
+    4300008: Roombah-Third-Wheel-Pivot
+    4300010: Roombah-Third-Wheel
+    4300012: Roombah-Wheel
+    4300014: Roombah-Wheel001
+    4300016: Roombah-Trim-White
+    4300018: Object
+    4300020: Roombah-Top
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
