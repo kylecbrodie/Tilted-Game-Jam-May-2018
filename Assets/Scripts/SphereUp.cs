@@ -5,6 +5,7 @@ using UnityEngine;
 public class SphereUp : MonoBehaviour {
 
     private Rigidbody rb;
+    private bool movingUp;
 
 	// Use this for initialization
 	void Awake () {
@@ -14,7 +15,16 @@ public class SphereUp : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        rb.AddForce(Vector3.up * 600f * Time.deltaTime);
+        var inputAxis = Input.GetAxis("Vertical");
+
+        movingUp = inputAxis > 0;
+
 		
+	}
+
+	void FixedUpdate() {
+        if( movingUp ) {
+            rb.AddForce(Vector3.up * 600f * Time.deltaTime);   
+        }
 	}
 }
