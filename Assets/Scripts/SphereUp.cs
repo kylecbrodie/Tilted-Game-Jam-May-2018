@@ -28,6 +28,12 @@ public class SphereUp : MonoBehaviour {
 	void FixedUpdate() {
         if( movingForward ) {
             rb.AddForce(Vector3.forward * 600f * Time.deltaTime);   
+        } else if( movingBack ) {
+            rb.AddForce(Vector3.back * 600f * Time.deltaTime);
+        } else if( movingLeft ) {
+            rb.AddForce(Vector3.left * 600f * Time.deltaTime);
+        } else {
+            rb.AddForce(Vector3.right * 600f * Time.deltaTime);
         }
 
 
