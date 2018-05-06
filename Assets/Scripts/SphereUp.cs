@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class SphereUp : MonoBehaviour {
 
+    private Rigidbody rb;
+
 	// Use this for initialization
-	void Start () {
+	void Awake () {
         Debug.Log("Hello, sphere.");
+        rb = GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        transform.position += Vector3.up * .1f * Time.deltaTime;
+        rb.AddForce(Vector3.up * 600f * Time.deltaTime);
 		
 	}
 }
