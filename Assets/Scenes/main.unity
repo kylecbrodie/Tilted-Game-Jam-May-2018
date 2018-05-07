@@ -140,7 +140,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 68806703}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -211,9 +211,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91bbfb3eeab6b4cc997a6fa8f9234ca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  movingLeft: 0
-  movingRight: 0
 --- !u!95 &68806709
 Animator:
   serializedVersion: 3
